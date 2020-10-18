@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    justify-content: center;
+    padding: 15px;
+}
+
+.icono_menu{
+    position: absolute;
+    color: white;
+    top: 25px;
+    left: 25px;
+    font-size: 2.5rem;
+}
+
+.menu_container{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 80px;
+    background-color: black;
+    height: 100vh;
+}
+
+.logo_container{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.icono_buscar_container{
+    grid-column: 3/4;
+}
+.icono_buscar{
+    color: white;
+}
+
+.menu li{
+    color: white;
+    list-style: none;
+}
